@@ -1,0 +1,171 @@
+body {
+      position: relative; 
+}
+html,body{
+  width:100%; 
+  height:100%; 
+  padding:0px;   
+  margin:0px
+}
+.navbar-toggler {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.navbar {
+  min-height:100px;
+}
+ #Logo {
+  margin:10px 500px 10px 0px;  
+  padding-left:0px;
+  color:white;
+  font-size:34px;
+  font-weight:900;
+  font-family: 'MontSerrat';
+  text-decoration:none;
+} 
+  .links {
+  color:white;
+  font-family: 'MontSerrat';
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 10px;  
+}
+a:link { text-decoration: none !important;} 
+a:visited {text-decoration: none !important;} a:hover { color:#fff  !important;
+  background:#18bc9c !important;
+  text-decoration: none !important;} 
+a:active  { color:#fff  !important;
+  background:#18bc9c !important;
+  text-decoration: none !important;} 
+
+  #Home {
+  padding-top:50px;
+  font-family: 'BubblegumSans';  
+  height:1000px;
+  color: white; 
+  background-color: #128f76;
+  width:100%;
+  font-weight:700;  
+}
+  #About {
+  padding-top:50px; 
+  font-family: 'BubblegumSans';  
+  background-color:#128f76;
+  height:900px;
+  color:white;
+  width:100%;
+  font-weight:700;  
+}
+  #Portfolio {
+  padding-top:50px;
+  font-family: 'BubblegumSans'; 
+  height:auto;
+  color: white; 
+  background-color: #128f76;
+  width:100%;
+  font-weight:700;  
+}
+
+#Portfolio p {
+  padding-top:25px;
+}
+.portfolioImg {
+  width:100%;
+  height:200px !important;
+  padding-top:10px;
+}
+/*
+.navbar-brand{
+  margin:10px 400px 10px 0px;  
+  padding-left:0px;
+  color:white;
+  font-size:34px;
+  font-weight:900;
+  font-family: 'MontSerrat';
+  text-decoration:none;
+}*/
+#girlImg {
+  width:250px;
+  height:250px;
+  padding-top:100px;
+}
+#HomePara {
+  padding-top:20px;
+  color:white;
+  font-family: 'Bubblegum Sans',"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight:500;
+  font-size:15px; 
+}
+#HomePara-1 {
+  font-size:30px;
+  font-weight:800;
+}
+#Home hr {
+ background-color: white;
+ height: 5px;
+ width: 60%;
+}
+.Headings {
+  padding-top: 100px;
+}
+
+.line {
+  max-width:250px;
+  padding:0px;
+  text-align:center;
+  border:none;
+  border-top:solid 5px;
+  margin-top:12px;
+  margin-bottom:2px
+}
+.line:after {
+  position:relative;
+  top:-25px;
+  display:inline-block;
+  padding:5px;
+  padding-left:25px;
+  padding-right:25px;
+  content: "\f069";
+  font-family:FontAwesome;
+  font-size:30px;
+}
+.line {
+  border-color:white;
+}
+.line:after { 
+  color:#fff;
+  background-color:#128f76;
+}
+#aboutContent {
+  padding-top:50px;
+  color:white;
+  font-family: 'Bubblegum Sans',"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight:600;
+  font-size:20px;
+}
+#Contact {
+  padding-top:150px;
+  height:1000px;
+  font-family: 'BubblegumSans';  
+  color: white; 
+  background-color: #128f76;
+  width:100%;
+  font-weight:700;  
+}
+.contact-form {
+    margin-top:70px;
+}
+#SubmitContact {
+  color: #fff !important;
+  background-color: #128f76 !important;
+  border:1px solid #fff;
+  font-family: 'BubblegumSans';  
+}
+#SubmitContact:hover
+{
+color:#128f76 !important;
+background-color:#fff !important;
+border:1px solid #128f76;
+}
