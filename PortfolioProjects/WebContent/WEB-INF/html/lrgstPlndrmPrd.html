@@ -1,0 +1,47 @@
+<html>
+  <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="../css/lrgstPlndrmPrd.css" rel="stylesheet">
+  </head>  
+  <body>
+    <div class="container" id="mainBox">
+      <h1>Largest Palindrome Product for N digits</h1>
+      <hr class="hr-primary" />
+      <div id="box" class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <p>Enter the digit for which you want the palindrome product</p>
+          </div>  
+          <div class="col-md-4">
+            <input type="text" id="digit" placeholder="Enter a digit(2-8)!!">
+          </div>
+        </div>  
+        <div class="row" id="inputBox">
+          <div class="col-md-12">
+           <button class="btn" onclick=btnClick();>Hit me for answer!!</button>
+          </div>  
+        </div> <!-- End of inputBox -->
+       </div> <!-- End of Box --> 
+      </br>
+      <div id="resultBox" class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <span style="text-align:left;">The largest palindrome product</span> for <span id="inputNumber"></span> <span> digits is </span> <span id="answer"></span>
+          </div>
+        </div> 
+      </div><!-- End of resultBox -->
+      </br>
+      <div id="timeBox" class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <span style="text-align:left;">The total time elapsed is </span><span id="totalTime"></span>
+          </div>
+        </div> 
+      </div>
+    </div><!-- End of main container -->  
+    <script src="../javascript/lrgstPlndrmPrd.js"></script>
+  </body>  
+</html>  

@@ -1,0 +1,87 @@
+html, body{
+  height:100%;
+  width:100%;
+  background-color:blue;
+}
+body {
+  background-color: blue !important;
+}
+h1 {
+  color:black !important;
+}
+#mainBox {
+  border:1px solid blue;
+  margin-top:5%;
+  height:80%;
+  width:80%;
+  background-color:white;
+}
+#box {
+  border:2px solid blue;
+  height:30%;
+  width:60%;
+  margin-top:2%;
+  border-radius:2%;
+}
+hr {
+    height: 3% !important;
+    background-color: blue; 
+}
+p {
+  margin-top:5%;
+  padding:1%;
+  color:black;
+  font-size:120%;
+}
+#digit{
+  font-color:blue;
+  border:2px solid blue;
+  border-radius:2%;
+  height:60%;
+  width:100%;
+  margin-top:5%;
+  margin-right:5%;
+  padding-left:15%;
+  padding-right:10%;
+  padding-top:1%;
+}
+button {
+  float:center;
+  padding:1%;
+  border-radius:2%;
+  background-color:white;
+  border:2px solid blue !important;
+  color:blue !important;
+  margin-top:1%;
+}
+.btn:hover{
+  background-color:blue;
+  border:2px solid white !important;
+  color:white !important;
+}
+#resultBox {
+  text-align:center;
+  height:15%;
+  width:60%;
+  border:1px solid white;
+  padding-top:2%;
+  padding-left:1%;
+  margin-top:2%;
+  color:white;
+  background-color:blue;
+  font-family: 'Lato', sans-serif;
+  font-size:160%;
+}
+#timeBox {
+  text-align:center;
+  height:15%;
+  width:60%;
+  border:1px solid white;
+  padding-top:2%;
+  padding-left:1%;
+  color:white;
+  margin-top:2%;
+  background-color:blue;
+  font-family: 'Lato', sans-serif;
+  font-size:120%;
+}
