@@ -1,0 +1,54 @@
+
+html, body {
+  min-height : 100%;
+  width : 100%;
+  margin : 0;
+  background : white !important;
+}
+#header {
+  background : blue;
+  color : white;
+  height : 50px;
+  padding: 1%;
+  text-transform:uppercase;
+  font-weight:800;
+  font-size:20px;
+  font-family: 'Raleway', sans-serif;
+}
+#main {
+  color : blue;
+  /*height : 65%;*/
+  position : relative;
+  padding-top : 2%;
+  padding-left : 5%;
+  padding-right : 5%;
+  padding-bottom : 5%;
+  margin-bottom : 10%; 
+}
+#footer {
+  background : blue;
+  right: 0;
+  height : 30px;
+  bottom : 0;
+  left: 0;
+  color : white;
+  position : fixed;
+  padding: 1%;
+  text-transform:uppercase;
+  font-weight:800;
+  font-size:15px;
+  font-family: 'Raleway', sans-serif;
+}
+
+hr {
+    height: 1% !important;
+    background-color: blue; 
+}
+#contactUs p {
+  padding-top:25px;
+}
+.contactUsImg {
+  width:100%;
+  height:200px !important;
+  padding-top:10px;
+}
