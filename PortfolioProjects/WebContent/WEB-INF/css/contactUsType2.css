@@ -1,0 +1,57 @@
+html, body {
+  min-height : 100%;
+  width : 100%;
+  margin : 0;
+  background : blue !important;
+}
+#header {
+  background : white;
+  color : black;
+  height : 50px;
+  padding: 1%;
+  text-transform:uppercase;
+  font-weight:800;
+  font-size:20px;
+  font-family: 'Raleway', sans-serif;
+}
+.table td { 
+     border-top: none !important; 
+ }
+#main {
+  color : white;
+  /*height : 65%;*/
+  position : relative;
+  padding-top : 10%;
+  padding-left : 5%;
+  padding-right : 5%;
+  padding-bottom : 5%;
+  margin-bottom : 10%; 
+}
+#footer {
+  background : white;
+  right: 0;
+  height : 30px;
+  bottom : 0;
+  left: 0;
+  color : black;
+  position : fixed;
+  padding: 1%;
+  text-transform:uppercase;
+  font-weight:800;
+  font-size:15px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.form-group {
+  padding : 1%;
+  width : 100%;
+}
+.btn {
+  color : blue !important;
+  background : white;
+  padding : 1%;
+  margin-left : 40%;
+  margin-right : 15%;
+  width:30%;
+  height:10%;
+}
