@@ -1,0 +1,103 @@
+html,body {
+	height:100%;
+	background-image:url("../img/piano-bkgrnd.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;	
+}
+#header {
+	height:5%;
+	color:white;
+}
+
+#main {
+	height:90%;
+	position:relative;
+}
+#piano-box {
+	height:35%;
+	width:50%;
+	border-radius: 1%;
+	position:absolute;
+	margin-left:25%;
+	margin-top:8%;
+}
+.c3 {
+	margin-left:0.3% !important;
+}
+
+.keyWhiteBtn {
+	width: 6.121%;
+    user-select: none;
+    outline: none;
+    height: 100%;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    border-radius: 0% 0% 2.5% 2.5%;
+    cursor: pointer;
+    background:linear-gradient(lightgray,white);
+    box-shadow:inset 1px 1px 3px 0px black, 
+    inset 2px 2px 6px 0px grey 
+    2px 0px grey, -1px 0px grey;
+}
+.btnText {
+	bottom:1%;
+	position:absolute;
+	left:28%;
+	color:black;
+	font-family:Arial;
+	font-size:150%;
+	font-weight:600;	
+}
+.keyBlackBtn {
+	width: 5.5%;
+    user-select: none;
+    outline: none;
+    height: 71%;
+    top:0.1%;
+    position: absolute;
+    border-radius: 0% 0% 4% 4%;
+    cursor: pointer;
+    border:none;
+    background-color:black;
+}
+.blackKey1 {
+	left:3.5%;
+}
+.blackKey2 {
+	left:10.5%;
+}
+.blackKey3 {
+	left:23.5%; 
+}
+.blackKey4 {
+	left:30.5%; 
+}
+.blackKey5 {
+	left:37.5%; 
+}
+.blackKey6 {
+	left:50.5%; 
+}
+.blackKey7 {
+	left:57.5%; 
+}
+.blackKey8 {
+	left:69.5%; 
+}
+.blackKey9 {
+	left:76.5%; 
+}
+.blackKey10 {
+	left:83.5%; 
+}
+#footer {
+	height:5%;
+	color:white;
+}
+hr {
+    height: 0.5% !important;
+    background: white; 
+}
