@@ -87,8 +87,9 @@ a:active  { color:#fff  !important;
   text-decoration:none;
 }*/
 #girlImg {
-  width:250px;
-  height:250px;
+/*width:250px;height:250px; */	
+  width:auto;
+  height:auto;
   padding-top:100px;
 }
 #HomePara {
