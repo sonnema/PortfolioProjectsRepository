@@ -1,176 +1,387 @@
-body {
-      position: relative; 
+body{
+	position: relative; 
 }
 html,body{
-  width:100%; 
-  height:100%; 
-  padding:0px;   
-  margin:0px
-}
-.navbar-toggler {
-  position: absolute;
-  right: 20px;
-  top: 20px;
+	width:100%; 
+  	height:100%; 
+  	padding:0px;   
+  	margin:0px;
+  	font-family:'MontSerrat', sans-serif;
 }
 .navbar {
-  min-height:100px;
+	min-height:100px;
+	margin-bottom:0;
 }
- #Logo {
-  margin:10px 500px 10px 0px;  
-  padding-left:0px;
-  color:white;
-  font-size:34px;
-  font-weight:900;
-  font-family: 'MontSerrat';
-  text-decoration:none;
-} 
-  .links {
-  color:white;
-  font-family: 'MontSerrat';
-  font-size: 22px;
-  font-weight: 700;
-  text-decoration: none;
-  padding: 10px;  
+#Logo {
+	margin-top:-64px;  
+  	padding-left:0px;
+  	color:white;
+  	font-size:34px;
+  	font-weight:900;
+  	font-family: 'MontSerrat', sans-serif;
+  	text-decoration:none;
 }
-a:link { text-decoration: none !important;} 
-a:visited {text-decoration: none !important;} a:hover { color:#fff  !important;
-  background:#18bc9c !important;
-  text-decoration: none !important;} 
-a:active  { color:#fff  !important;
-  background:#18bc9c !important;
-  text-decoration: none !important;} 
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+.links {
+    margin: 20px 10px 20px 10px;
+    font-family: 'MontSerrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    background:transparent;
+    text-decoration: none;
+	padding: 10px;  
+}
+.navbar-inverse{
+	color:#fff;
+	border-color:#000;
+	background:#000;
+}
+.navbar-inverse .navbar-collapse{
+	border-color:transparent;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+	color:#fff;
+  	background:#18bc9c;
+  	text-decoration: none;
+}
+ 
+#Home {
+	padding-top:50px;
+    font-family: 'MontSerrat', sans-serif;
+  	height:1000px;
+    color: white; 
+    background-color: #128f76;
+    width:100%;
+    font-weight:700;  
+}
+#About {
+	padding-top:50px; 
+    font-family: 'MontSerrat', sans-serif;
+    background-color:#128f76;
+    height:900px;
+    color:white;
+    width:100%;
+    font-weight:700;  
+}
 
-  #Home {
-  padding-top:50px;
-  font-family: 'BubblegumSans';  
-  height:1000px;
-  color: white; 
-  background-color: #128f76;
-  width:100%;
-  font-weight:700;  
-}
-  #About {
-  padding-top:50px; 
-  font-family: 'BubblegumSans';  
-  background-color:#128f76;
-  height:900px;
-  color:white;
-  width:100%;
-  font-weight:700;  
-}
-  #Portfolio {
-  padding-top:50px;
-  font-family: 'BubblegumSans'; 
-  height:auto;
-  color: white; 
-  background-color: #128f76;
-  width:100%;
-  font-weight:700;  
+#Portfolio {
+	padding-top:50px;
+    font-family: 'MontSerrat', sans-serif;
+    height:auto;
+	color: white; 
+    background: #128f76;
+    width:100%;
+    font-weight:700;  
 }
 
 #Portfolio p {
-  padding-top:25px;
+	padding-top:25px;
 }
 .portfolioImg {
-  width:100%;
-  height:200px !important;
-  padding-top:10px;
+	width:100%;
+    height:200px !important;
+    padding-top:10px;
 }
-/*
-.navbar-brand{
-  margin:10px 400px 10px 0px;  
-  padding-left:0px;
-  color:white;
-  font-size:34px;
-  font-weight:900;
-  font-family: 'MontSerrat';
-  text-decoration:none;
-}*/
-#girlImg {
-/*width:250px;height:250px; */	
-  width:auto;
-  height:auto;
-  padding-top:100px;
+.portfolioDesc{
+	padding-top:10px;
+	font-family: 'MontSerrat', sans-serif;
+	font-size:14px;
+	text-align:left;
+	color:#fff;
+}
+.detailsClose{
+	width:auto;
+	border:none;
+	background:transparent;
+}
+.detailsClose span{
+	color:#fff;
+	font-size:30px;
+	background:transparent;
+}
+.detailsClose:focus{
+	outline:none;
+	border:none;
+}
+.detailsClose span:hover{
+	color:#f4bb27;
+}
+.pageLink{
+    color:#f4bb27;
+    text-transform:uppercase;
+    text-decoration:none;
+    background:rgba(0,0,0,0);
+}
+.pageLink:hover, .pageLink:focus{
+    color:#fff;
+    background:rgba(0,0,0,0);
 }
 #HomePara {
-  padding-top:20px;
-  color:white;
-  font-family: 'Bubblegum Sans',"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-weight:500;
-  font-size:15px; 
+	color:white;
+    font-family: 'MontSerrat', sans-serif;
+    font-weight:500;
+    font-size:15px; 
 }
 #HomePara-1 {
-  font-size:30px;
-  font-weight:800;
+  	font-size:30px;
+  	font-weight:800;
 }
-#Home hr {
- background-color: white;
- height: 5px;
- width: 60%;
+#Home hr, #Portfolio hr, #About hr, #contact hr {
+	background-color: white;
+ 	height: 5px;
+ 	width: 60%;
 }
 .Headings {
-  padding-top: 100px;
-}
-
-.line {
-  max-width:250px;
-  padding:0px;
-  text-align:center;
-  border:none;
-  border-top:solid 5px;
-  margin-top:12px;
-  margin-bottom:2px
-}
-.line:after {
-  position:relative;
-  top:-25px;
-  display:inline-block;
-  padding:5px;
-  padding-left:25px;
-  padding-right:25px;
-  content: "\f069";
-  font-family:FontAwesome;
-  font-size:30px;
-}
-.line {
-  border-color:white;
-}
-.line:after { 
-  color:#fff;
-  background-color:#128f76;
+	padding-top: 100px;
 }
 #aboutContent {
-  padding-top:50px;
-  color:white;
-  font-family: 'Bubblegum Sans',"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-weight:600;
-  font-size:20px;
+  	padding-top:50px;
+  	color:white;
+  	font-family: 'MontSerrat', sans-serif;
+  	font-weight:600;
+  	font-size:20px;
+  	margin:5px 50px;
 }
-#Contact {
-  padding-top:150px;
-  height:1000px;
-  font-family: 'BubblegumSans';  
-  color: white; 
-  background-color: #128f76;
-  width:100%;
-  font-weight:700;  
+#girlImg{
+	width:25%;
+	border-radius:5px;
+	margin:100px auto 50px auto;
+	padding-top:0;
 }
-.contact-form {
-    margin-top:70px;
+#contact {
+	padding-top:50px;
+	background-color:#128f76;
+  	height:auto;
+  	min-height:800px;
+  	line-height:1.5em;
+  	color:#fff;
+  	width:100%;
+  	font-weight:600;  
 }
-#SubmitContact {
-  color: #fff !important;
-  background-color: #128f76 !important;
-  border:1px solid #fff;
-  font-family: 'BubblegumSans';  
+
+#contactUsForm{
+	margin:20px auto;	
 }
-#SubmitContact:hover
+#contactUsForm .row{
+	margin:0;	
+}
+#contactForm{
+	width:100%;
+}
+.form-control:focus {
+  	border-color: inherit;
+  	-webkit-box-shadow: none;
+  	box-shadow: none;
+}
+#submitContact {
+	color: #fff;
+  	background-color: #128f76;
+  	border:1px solid #fff;
+  	font-size:130%;
+  	font-weight:700;
+  	font-family: 'MontSerrat', sans-serif;  
+}
+#submitContact:hover
 {
-color:#128f76 !important;
-background-color:#fff !important;
-border:1px solid #128f76;
+	color:#128f76 ;
+	background-color:#fff;
 }
-#emailID 
-{
-	color:white;
+button:focus{
+    outline:none !important;
 }
+
+ @media all and (max-width:1200px){
+ 	#Logo{
+ 		margin-top:-64px; 
+ 	}
+ 	.nav>li>a{
+ 		padding:10px 12px;
+ 	}
+ 	.links{
+ 		margin:24px 2px 0px 2px;
+ 	}
+ 	#girlImg{
+ 		padding-top:0px;
+ 		margin:100px auto 50px auto;
+ 		border-radius:5px;
+ 		width:25%;
+ 	}
+ 	#HomePara{
+		padding-top:0;
+		margin-left:10px;
+	}
+	#HomePara-1{
+		font-size:26px;
+		text-align:center;
+	}
+	#Home hr{
+		width:75%;
+	}
+	#HomePara p:nth-child(3){
+		margin:auto 75px;
+		font-size:18px;
+	}
+ 	#submitContact{
+ 		font-size:120%;
+ 	}
+ 	.lead{
+ 		font-size:20px;
+ 	}
+ 	h5{
+ 		font-size:large;
+ 	}
+}
+ @media all and (max-width:992px){
+ 	#Logo{
+ 		margin-top:-64px; 
+ 	}
+ 	
+ 	.nav>li>a{
+ 		padding:10px 12px;
+ 	}
+ 	.links{
+ 		margin:24px 2px 0px 2px;
+ 	}
+ 	#girlImg{
+ 		padding-top:0px;
+ 		margin:100px auto 50px auto;
+ 		border-radius:5px;
+ 		width:35%;
+ 	}
+ 	#HomePara{
+		padding-top:0;
+		margin-left:10px;
+		text-align:left !important;
+	}
+	#HomePara-1{
+		font-size:26px;
+		text-align:center;
+	}
+	#Home hr{
+		width:75%;
+	}
+	#HomePara p:nth-child(3){
+		margin:auto 75px;
+		font-size:18px;
+	}
+ 	#submitContact{
+ 		font-size:120%;
+ 	}
+ 	.lead{
+ 		font-size:18px;
+ 	}
+ 	h5{
+ 		font-size:large !important;
+ 	}
+}
+ @media all and (max-width:768px){
+	#Logo{
+ 		margin-top:-64px; 
+ 	}
+ 	.nav>li>a{
+ 		padding:10px 12px;
+ 	}
+ 	.navbar-inverse .navbar-toggle{
+ 		border-color:#fff;
+ 	}
+ 	.navbar-toggle{
+ 		margin-top:25px;
+ 	}
+ 	.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    	color: #fff;
+    	background: #18bc9c;
+    	margin:12px 0; 
+	}
+ 	.links{
+ 		margin:18px 2px 0px 2px;
+ 	}	
+ 	.navbar-inverse .navbar-collapse {
+    	border-color: #fff;
+    	margin-top:40px;
+	}
+	#girlImg{
+		width:35%;
+		border-radius:5px;
+		margin:100px auto 50px auto;
+		padding-top:0;
+	}
+	
+  	#submitContact{
+ 		font-size:120%;
+ 	}
+ 	
+ 	h5{
+ 		font-size:large !important;
+ 	}
+ 	#HomePara{
+		padding-top:0;
+		margin-left:10px;
+		text-align:left !important;
+	}
+	#HomePara-1{
+		font-size:26px;
+		text-align:center;
+	}
+	#Home hr{
+		width:80%;
+	}
+	#HomePara p:nth-child(3){
+		margin:auto 45px;
+		font-size:16px;
+	}
+ }
+ @media screen and (max-width:480px){
+	
+	#Logo{
+		margin-top:-64px;
+	}
+	.nav>li>a{
+ 		padding:10px 12px;
+ 	}
+ 	.navbar-inverse .navbar-toggle{
+ 		border-color:#fff;
+ 	}
+ 	.navbar-toggle{
+ 		margin-top:25px;
+ 	}
+ 	.navbar-inverse .navbar-toggle:hover{
+ 		background:transparent;
+ 	}
+ 	.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    	color: #fff;
+    	background: #18bc9c;
+    	margin:12px 0; 
+	}
+	.links{
+ 		margin:18px 2px 0px 2px;
+ 	}	
+ 	.navbar-inverse .navbar-collapse {
+    	border-color: #fff;
+    	margin-top:40px;
+	}
+	#girlImg{
+		width:50%;
+		border-radius:5px;
+		margin:100px auto 50px auto;
+		padding-top:0;
+	}
+	#HomePara{
+		padding-top:0;
+		text-align:left !important;
+		margin-right:15px;
+	}
+	#HomePara-1{
+		font-size:20px;
+	}
+	#Home hr{
+		width:100%;
+	}
+  	#submitContact{
+ 		font-size:120%;
+ 	}
+}
+
+
+ 

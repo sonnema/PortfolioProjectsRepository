@@ -4,172 +4,193 @@
   <title>My portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=BubblegumSans">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette">
   <link rel="stylesheet" href="../css/portfolio.css">
-  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
-  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
-  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">-->
-  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </head>
+</head>
 <body data-spy="scroll" data-target=".navbar" data-offset="100">  
-<!--<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end text-uppercase fixed-top">-->
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-end text-uppercase fixed-top">
-  <div class="container-fluid" id="Navigation">
-   <div class="navbar-header">  
-    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation" >
-        <!--<span class="sr-only">Toggle navigation</span>    
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> -->
-        <span class="navbar-toggler-icon"></span>
-     </button>
-    <a class="navbar-brand" href="#Home" id="Logo">
-      Logo 
-    </a> 
-   </div>
-  <div>
-   <div class="collapse navbar-collapse" id="myNavbar">
-    <ul class="navbar-nav ml-auto">
-      <li class="mx-0 mx-lg-1"><a href="#Home" class="links py-3 px-0 px-lg-3 rounded js-scroll-trigger"  >Home</a></li>
-      <li class="mx-0 mx-lg-1"><a href="#Portfolio" class="links py-3 px-0 px-lg-3 rounded js-scroll-trigger" >Portfolio</a></li>
-      <li class="mx-0 mx-lg-1"><a href="#About" class="links py-3 px-0 px-lg-3 rounded js-scroll-trigger" >About</a></li>
-      <li class="mx-0 mx-lg-1"><a href="#Contact" class="links py-3 px-0 px-lg-3 rounded js-scroll-trigger" id="ContactNav" >Contact</a></li>
-    </ul>  
-   </div>
-  </div>
- </div>
-</nav>  
-<div id="Home" class="container-fluid">
-  <!-- <img src="http://www.free-icons-download.net/images/cute-office-girl-icons-29779.png" alt="my page" class="img-fluid mx-auto d-block" id="girlImg" >
-  </img> -->
-  <img src="../img/SoniaNema.jpg" alt="my page" class="mx-auto d-block" id="girlImg" >
-  </img>
-  <div class="row">
-   <div class="col-md-12 col-md-offset-1 col-sm-12 col-xs-12 text-center" id="HomePara"> 
-    <p class="text-uppercase" id="HomePara-1"> Looking for a web expert? </p>
-   <hr> 
-   <p>Hi, I am Sonia, a self taught web developer who thrives to build beautiful web pages, making web a wonderful world.
-   </p>
-  </div>  
- </div>
-</div>
+	<nav class="navbar bg-dark navbar-inverse text-uppercase navbar-fixed-top">
+  		<div class="container-fluid" id="Navigation">
+   			<div class="navbar-header">  
+    			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+    				<span class="icon-bar"></span>
+     			</button>
+    			<a class="navbar-brand" href="#Home" id="Logo"><img class="img-responsive" src="../img/PortfolioLogo.png" alt="my logo"></a> 
+   			</div>
+   			<div class="collapse navbar-collapse" id="myNavbar">
+    			<ul class="nav navbar-nav navbar-right">
+			    	<li><a href="#Home" class="links">Home</a></li>
+      				<li><a href="#Portfolio" class="links" >Portfolio</a></li>
+      				<li><a href="#About" class="links" >About</a></li>
+      				<li><a href="#contact" class="links" id="ContactNav" >Contact</a></li>
+    			</ul>  
+   			</div>
+		</div>
+	</nav>  
+	<div id="Home" class="container-fluid">
+		<div class="text-center">
+  			<img src="../img/SoniaNema.jpg" alt="my page" class="img-responsive" id="girlImg" >
+  		</div>
+  		<div class="row">
+   			<div class="col-md-12 text-center" id="HomePara"> 
+    			<p class="text-uppercase" id="HomePara-1"> Looking for a web expert? </p>
+   				<hr> 
+   				<p>Hi, I am Sonia, a self taught web developer who thrives to build beautiful web pages, making web a wonderful world.</p>
+  			</div>  
+		</div>
+	</div>
 <!-- Portfolio Section -->
 <div id="Portfolio" class="container-fluid">
-  <div class="Headings text-center text-uppercase">
-    <h2>Portfolio</h2>
-  </div>
-  <hr class="line">
-  <div class="container-fluid">
-    <p class="text-center">Click on the images to know the details of the project.</p>
-    <div class="row">
-      <div class="col-md-4 ml-auto mr-auto col-xs-12 col-sm-12">
-        <div>
-          <a href="https://rawgit.com/sonnema/PortfolioProjectsRepository/master/PortfolioProjects/WebContent/WEB-INF/html/calculator.html" target="_blank">
-            <img src="../img/Calculator.png" alt="Javascript Calculator" class="portfolioImg img-fluid">
-          </a>
-        </div>
-      </div>
-      <div class="col-md-4 ml-auto mr-auto col-xs-12 col-sm-12">
-        <div>
-          <a href="https://raw.githack.com/sonnema/PortfolioProjectsRepository/master/PortfolioProjects/WebContent/WEB-INF/html/mathswebsite_index.html" target="_blank">
-            <img src="../img/mathsWebsite.png" alt="Maths Website" class="portfolioImg img-fluid">
-          </a>
-        </div>
-      </div>
-      <div class="col-md-4 ml-auto mr-auto col-xs-12 col-sm-12">
-        <div>
-          <a href="https://raw.githack.com/sonnema/BrooklynOutdoorFilmFestival/master/BrooklynOutdoorFilmFestival/WebContent/HTML/index.html" target="_blank">
-            <img src="../img/brooklyn.jpg" alt="Brooklyn Festival" class="portfolioImg img-fluid">
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="row">  
-      <div class="col-md-4 ml-auto mr-auto col-xs-12 col-sm-12">
-        <div>
-          <a href="https://raw.githack.com/sonnema/MathsGame/master/WebContent/html/index.html" target="_blank">
-            <img src="../img/MathsGame.png" alt="Maths Game" class="portfolioImg img-fluid">
-          </a>
-        </div>
-      </div>
-      <div class="col-md-4 ml-auto mr-auto col-xs-12 col-sm-12">
-        <div>
-          <a href="https://raw.githack.com/sonnema/FruitSlicerGame/master/WebContent/html/index.html" target="_blank">
-            <img src="../img/FruitSlicerGame.png" alt="Fruit Slicer Game" class="portfolioImg img-fluid">
-          </a>
-        </div>
-      </div>
-      <div class="col-md-4 ml-auto mr-auto col-xs-12 col-sm-12">
-        <div>
-          <a href="https://raw.githack.com/sonnema/AppLandingPage/master/WebContent/html/index.html" target="_blank">
-            <img src="../img/AppLandingPage.png" alt="App Landing Game" class="portfolioImg img-fluid">
-          </a>
-        </div>
-      </div>
-    </div>  
-  </div>
-</div>  
+	<div class="col-xs-12 Headings text-center text-uppercase">
+    	<h2>Portfolio</h2>
+    	<hr>
+  	</div>
+  	<div class="row text-center">
+  		<p class="col-xs-12">Click on the images to know the details of the project.</p>
+		<div class="col-md-4 col-xs-6">
+			<a href="#details1" data-toggle="collapse" title="Javascript Calculator">
+        		<img src="../img/Calculator.png" alt="Javascript Calculator" class="portfolioImg img-fluid">
+       		</a>
+       		<div class="collapse portfolioDesc" id="details1">
+       			<button class="detailsClose text-right col-sm-12"  type="button" title="Close the details section"><span>&times;</span></button>
+       			<div class="col-xs-12">
+       				<p class="text-left">This website is a calculator made using HTML, CSS and Javascript.</p>
+        			<a class="pageLink" href="https://rawgit.com/sonnema/PortfolioProjectsRepository/master/PortfolioProjects/WebContent/WEB-INF/html/calculator.html" target="_blank">Go to the Javascript Calculator.</a>
+       			</div>
+       		</div>
+		</div>
+		<div class="col-md-4 col-xs-6">
+			<a href="#details2" data-toggle="collapse" title="Maths Tutorial Website"> 
+        		<img src="../img/mathsWebsite.png" alt="Maths Website" class="portfolioImg img-fluid">
+        	</a>
+        	<div class="collapse portfolioDesc" id="details2">
+        		<button class="detailsClose text-right col-sm-12"  type="button" title="Close the details section"><span>&times;</span></button>
+        		<div class="col-xs-12">
+        			<p class="text-left">This website is about maths tutorial. It helps the users learn maths in a fun way. 
+        			<br />This page was made as a part of an exercise with the Udemy course - The Complete 2019 Web Development Course. 
+          			<br />It was made using HTML, CSS and Javascript.</p>
+        			<a class="pageLink" href="https://raw.githack.com/sonnema/PortfolioProjectsRepository/master/PortfolioProjects/WebContent/WEB-INF/html/mathswebsite_index.html" target="_blank">Go to the Maths Tutorial Website.</a>
+       			</div>
+       		</div>
+		</div>
+		<div class="col-md-4 col-xs-6">
+			<a href="#details3" data-toggle="collapse" title="Brooklyn Outdoor Film Festival">
+        		<img src="../img/brooklyn.jpg" alt="Brooklyn Festival" class="portfolioImg img-fluid">
+        	</a>
+        	<div class="collapse portfolioDesc" id="details3">
+        		<button class="detailsClose text-right col-sm-12"  type="button" title="Close the details section"><span>&times;</span></button>
+        		<div class="col-xs-12">
+        			<p class="text-left">This website is about a movie festival organized at Brooklyn city. It helps the users know which movies' shows are available on which date and time and further let them book their places.     			
+        			<br /> This page was made as a part of an exercise with the Udemy course - The Complete 2019 Web Development Course. 
+          			<br />It was made using HTML, CSS, Bootstrap and Javascript.</p>
+          			<a class="pageLink" href="https://raw.githack.com/sonnema/BrooklynOutdoorFilmFestival/master/BrooklynOutdoorFilmFestival/WebContent/HTML/index.html" target="_blank">Go to the Brooklyn Film Festival Website.</a>
+       			</div>
+       		</div>
+		</div>
+		<div class="col-md-4 col-xs-6">
+			<a href="#details4" data-toggle="collapse" title="Maths Games">
+    			<img src="../img/MathsGame.png" alt="Maths Game" class="portfolioImg img-fluid">
+    		</a>
+    		<div class="collapse portfolioDesc" id="details4">
+    			<button class="detailsClose text-right col-sm-12"  type="button" title="Close the details section"><span>&times;</span></button>
+    			<div class="col-xs-12">
+    				<p class="text-left">This webpage is a game about choosing the right option to the Math problem and increasing score with number of right answers. 
+    				<br />This page was made as a part of an exercise with the Udemy course - The Complete 2019 Web Development Course. 
+          			<br />It was made using HTML, CSS and Javascript.</p>
+        			<a class="pageLink" href="https://raw.githack.com/sonnema/MathsGame/master/WebContent/html/index.html" target="_blank">Go to the Maths Game.</a>
+       			</div>
+       		</div>
+		</div>
+		<div class="col-md-4 col-xs-6">
+			<a href="#details5" data-toggle="collapse" title="Fruit Slicer Game">
+    			<img src="../img/FruitSlicerGame.png" alt="Fruit Slicer Game" class="portfolioImg img-fluid">
+    		</a>
+    		<div class="collapse portfolioDesc" id="details5">
+    			<button class="detailsClose text-right col-sm-12"  type="button" title="Close the details section"><span>&times;</span></button>
+    			<div class="col-xs-12">
+    				<p class="text-left">This webpage is a game about slicing fruits and increasing score with number of fruits cut. 
+    				<br />This page was made as a part of an exercise with the Udemy course - The Complete 2019 Web Development Course. 
+          			<br />It was made using HTML, CSS and Jquery.</p>
+          			<a class="pageLink" href="https://raw.githack.com/sonnema/FruitSlicerGame/master/WebContent/html/index.html" target="_blank">Go to the Fruit Slicer Game.</a>
+       			</div>
+       		</div>
+		</div>
+		<div class="col-md-4 col-xs-6">
+			<a href="#details6" data-toggle="collapse" title="App Landing Page">
+       			<img src="../img/AppLandingPage.png" alt="App Landing Game" class="portfolioImg img-fluid">
+    		</a>
+    		<div class="collapse portfolioDesc" id="details6">
+    			<button class="detailsClose text-right col-sm-12"  type="button" title="Close the details section"><span>&times;</span></button>
+    			<div class="col-xs-12">
+    				<p class="text-left">This page is the first page of a web application. It lets them explore in brief about the app whereabouts and further lets them download the app on google store or apple app store. 
+    				<br />This page was made as a part of an exercise with the Udemy course - The Complete 2019 Web Development Course. 
+       				<br />It was made using HTML, CSS and Bootstrap.</p>
+       			</div>
+       		</div>
+		</div>
+	</div>
+</div>	
 <!-- About Me Section -->  
-<div id="About" class="container-fluid mb-0">
-  <div class="Headings text-center text-uppercase">
-    <h2>About</h2>
-  </div>
-  <hr class="line">
-  <div class="row" id="aboutContent" >
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ml-auto">
-     <p class="lead">Hi, I am a front end web developer living in Peterborough, UK. I enjoy converting user requirements  into creative and functional web pages using HTML, CSS, JAVASCRIPT, JQUERY, BOOTSTRAP & WORDPRESS.</p>
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mr-auto">
-     <p class="lead">Besides being a coder, I am also a tutor helping kids with their studies.</p>
-    </div>
-  </div>
+<div id="About" class="container-fluid">
+	<div class="col-xs-12 Headings text-center text-uppercase">
+    	<h2>About</h2>
+    	<hr>
+  	</div>
+  	<div class="row text-center" id="aboutContent" >
+    	<div class="col-md-6">
+     	<p class="lead">Hi, I am a front end web developer living in Peterborough, UK. I enjoy converting user requirements into creative and functional web pages using web development languages. 
+     	</p>
+    	</div>
+    	<div class="col-md-6">
+    		<p class="lead">My skillset includes <span class="text-uppercase">html, css, javascript, Jquery, Bootstrap4, Wordpress, Git, Basic Knowledge of React & Google Map API</span>. 
+    		<br />Besides being a coder, I am also a Maths tutor helping kids with their studies.</p>
+    	</div>
+	</div>
 </div>
-<!-- contact form section -->
-<div id="Contact" class="container-fluid">
-	<div class="row">
-	  <div class="col-sm-4">
-		<h3>Drop me a line!</h3>
-      	<hr>
-      	<address>
-			<strong>Email:</strong> 
-        	<a href="mailto:#" id="emailID"> nemasonia@gmail.com</a>
-        	<br>
-        	<br>
-        	<strong>Phone:</strong> (44)7459123387
-	  	</address>
-	 </div>
-	 <div class="col-sm-8 contact-form">
-		<form id="contactForm" method="post" class="form" role="form">
-			<div class="row">
-				<div class="col-xs-6 col-md-6 form-group">
-			 		<input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
-				</div> 
-      			<div class="col-xs-6 col-md-6 form-group">
-			  		<input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
-      			</div> 
-			</div> 
-			<textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
-			<br>
-			<div class="row">
-				<div class="col-xs-12 col-md-12 form-group">
-            		<button class="btn btn-outline-light pull-right" type="submit" id="SubmitContact">Submit</button>
-          		</div> 
-			</div> 
-		</form> 
-	</div> 
-</div> 
-</div> 
+<div id="contact" class="container-fluid">
+	<div class="col-xs-12 Headings text-center text-uppercase">
+    	<h2>Submit Form</h2>
+    	<p class="text-capitalize">Drop me a line, will get back to you <span class="text-uppercase">asap</span>!!</p>
+ 		<hr>
+ 	</div>
+ 	
+ 	
+ 	<div id="contactUsForm" class="container">
+    	<form action="" class="row" id="contactForm" >
+        		<div class="form-group col-sm-6">
+        			<label class="sr-only">First Name</label>
+			    	<input type="text" name="first_name" id="validationDefault01" class="form-control input-sm" placeholder="First Name" pattern="[A-Za-z]+" title="Name should only contain letters." required >
+			    </div>
+			    <div class="form-group col-sm-6">
+			    	<label class="sr-only">Last Name</label>
+			    	<input type="text" name="last_name" id="last_name" class="form-control input-sm" pattern="[A-Za-z]+" placeholder="Last Name" required title="Name should only contain letters." >
+			    </div>
+				<div class="form-group col-sm-12">
+					<label class="sr-only">Email</label>
+					<input type="email" name="email" id="email" class="form-control input-sm" placeholder="Email Address" required >
+				</div>
+				<div class="form-group col-sm-12">
+					<label class="sr-only">Message</label>	
+				  	<textarea class="form-control" name="message" rows="5" id="comment" placeholder="Your message"></textarea>
+				</div>
+				<br>
+				<div class="col-sm-12">
+					<input id="submitContact" type="submit" value="SEND MESSAGE" class="btn btn-block ">
+				</div>
+		</form>
+	</div>
+	<!-- <div id="messageStatus" class="row justify-content-center text-uppercase fade"></div> -->
+ </div>
+
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 <script src="../javascript/portfolio.js"></script>
 </body>
 </html>  
